@@ -1,0 +1,84 @@
+
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    background: #5f2c52 ;
+    height: 100vh;
+    width: 100vw;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+section{
+    width: 300px;
+    background-color: white;
+    border-radius: 18px;
+}
+div#foto{
+    background: url(/img/pexels-bravingbird-1063299432-20522444.jpg) center center /cover;
+    width: 300px;
+    height: 250px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+
+}
+div#form{
+    padding: 15px;
+}
+section h1{
+    text-align: center;
+    margin: 10px;
+}
+section p{
+    text-align: justify;
+}
+form div{
+    background-color: #5f2c52;
+    padding: 2px;
+    margin-top: 4px;
+    border-radius: 8px;
+    position: relative;
+    width: 265px;
+}
+form div input{
+    padding-left: 2110px;
+    border-radius: 8px;
+    padding: 10px;
+    width: 90%;
+    
+    
+}
+#form div i{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+}
+.botao{
+    padding: 10px;
+    width: 270px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    background-color: #49a09d;
+    color: rgb(54, 54, 54);
+    font-weight: bolder;
+}
+.botao:hover{
+    background-color: rgba(73, 130, 137, 1);
+    color: white;
+}
+.button{
+    background-color: white;
+    border: 1px solid #49a09d;
+}
