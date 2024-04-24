@@ -9,12 +9,12 @@
     }
     div#imagem{
         float: left;
-        width: 40%;
+        width: 30%;
         height: 100%;
     }
     div#formulario{
         float: right;
-        width: 60%;
+        width: 70%;
     }
     
 }
@@ -24,7 +24,7 @@
         
     }
     section#login{
-        width: 992px;
+        width: 950px;
         height: 300px;
        
     }
@@ -36,6 +36,12 @@
     div#formulario{
         float: left;
         width: 50%;
+    }
+    #form h1{
+        font-size: 2em;
+    }
+    #form p{
+        font-size: 1.2em;
     }
     
 }

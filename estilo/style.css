@@ -43,13 +43,13 @@ div#imagem{
     text-align: center;/* pra alinhar*/
     margin: 10px;
 }
-
+#form p{
+    font-size: 0.8em;
+}
 section div#form{
     display: block;/* pra q seja tratado como bloco*/
-    padding: 10px;/* pra da em espaçamento por dentro */
+    padding-bottom: 10px;/* pra da em espaçamento por dentro */
 }
-#form div{
-    background-color: #5f2c52;
-    margin: 2px;
-    
+#form{
+    padding: 5px;
 }
