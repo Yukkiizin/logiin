@@ -1,0 +1,42 @@
+@charset "UTF-8";
+@media screen and (min-width:766px) and (max-width:992px) {
+    main{
+        width: 90vw;
+        height: 300px;
+    }
+    section{
+        width: 90vw;
+        height: 300px;
+    }
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #form{
+        float: right;
+        width: 70%;
+    }
+    
+}
+@media screen  and (min-width:992px) {
+    main{
+        width: 600px;
+        height: 320px;
+    }
+    section{
+        width: 600px;
+        height: 350px;
+    }
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    #form{
+        padding: 10px;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+}

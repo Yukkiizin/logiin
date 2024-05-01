@@ -1,0 +1,178 @@
+@charset "UTF-8";
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100vw;
+    height: 100vh;
+    
+}
+body{
+    background-color: rgb(42, 42, 165);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 500px;
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+}
+section{
+    overflow: hidden;
+    height: 500px;
+    width: 250px;
+    background-color: rgb(255, 255, 255) ;
+    
+}
+#imagem{
+    background: url(../img/pexels-bravingbird-1063299432-20522444.jpg) center center / cover;
+    height: 200px;
+}
+#form{
+    padding: 6px;
+}
+#form h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#form p{
+    font-size: .8em;
+    margin-bottom: 10px ;
+}
+#form label{
+    display: none;
+
+}
+div.campo{
+    height: 40px;
+    background-color: aqua;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+.campo i{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+input:focus-within{
+    background-color: black;
+}
+.campo input{
+    
+    width: calc(100% - 45px);
+    height: 90%;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    transform: translateY(-3px);
+
+}
+input[type=submit]{
+    height: 40px;
+    width: 100%;
+    margin: 5px 0;
+    background-color: aqua;
+    border-radius: 8px;
+    border: none;
+    
+}
+
+#form form a{
+    height: 40px;
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid aqua;
+    
+}
+#form form a:hover{
+    background-color: aqua;
+    color: white;
+    
+    
+}
+#form a i{
+    font-size: 1em;
+    padding-top: 8px;
+    border-radius: 8px;
+
+}
+span:nth-last-of-type(1){
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(to right, transparent, chartreuse);
+    width: 100%;
+    height: 3px;
+    animation: animar1 2s linear infinite;
+}
+@keyframes animar1 {
+    0%{
+        transform: translatex(-100%);
+    }
+    100%{
+        transform: translatex(100%);
+    }
+}
+span:nth-last-of-type(2){
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(to bottom , transparent, chartreuse);
+    width: 3px;
+    height:100%;
+    animation: animar2 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animar2 {
+    0%{
+        transform: translatey(-100%);
+    }
+    100%{
+        transform: translatey(100%);
+    }
+}
+span:nth-last-of-type(3){
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to left , transparent, chartreuse);
+    width: 100%;
+    height: 3px;
+    animation: animar3 2s linear infinite;
+}
+@keyframes animar3 {
+    0%{
+        transform: translatex(100%);
+    }
+    100%{
+        transform: translatex(-100%);
+    }
+}
+span:nth-last-of-type(4){
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(to top, transparent,chartreuse);
+    width: 3px;
+    height:100%;
+    animation: animar4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animar4 {
+    0%{
+        transform: translatey(100%);
+    }
+    100%{
+        transform: translatey(-100%);
+    }
+}
