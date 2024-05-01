@@ -92,7 +92,6 @@ input[type=submit]{
     text-align: center;
     border-radius: 8px;
     border: 1px solid aqua;
-    
 }
 #form form a:hover{
     background-color: aqua;
